@@ -1,7 +1,6 @@
+# ETL with PySpark: 
 
 
-```markdown
-# ETL with PySpark: A Beginner's Guide
 
 Have you ever wondered how companies handle massive amounts of data every day? Enter the world of ETL with PySpark – a powerful combination that's revolutionizing data processing!
 
@@ -25,13 +24,13 @@ Let's break down how PySpark makes ETL a breeze:
 
    PySpark can read data from various sources:
 
-   ```python
+```markdown
    # Reading a CSV file
    df = spark.read.csv("your_data.csv", header=True)
 
    # Reading from a database
    df = spark.read.jdbc(url="jdbc:postgresql:dbserver", table="users")
-   ```
+```
 
 2. **Transform: Shaping Your Data**
 
@@ -40,7 +39,7 @@ Let's break down how PySpark makes ETL a breeze:
    ```python
    # Filtering rows
    filtered_df = df.filter(df.age > 18)
-
+   
    # Adding a new column
    transformed_df = filtered_df.withColumn("adult", lit("yes"))
    ```
@@ -90,6 +89,3 @@ Ready to take your data skills to the next level? Check out these resources:
 
 - [Apache Spark Documentation](https://spark.apache.org/documentation.html)
 - [PySpark Tutorial](https://spark.apache.org/docs/latest/api/python/index.html)
-```
-
-This Markdown format retains the structure and content of your original text while making it suitable for display in Markdown-supported environments.
