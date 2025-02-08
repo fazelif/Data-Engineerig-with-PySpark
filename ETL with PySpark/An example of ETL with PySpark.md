@@ -1,6 +1,4 @@
-# Designing an ETL Pipeline: Merging Data from PostgreSQL and MySQL into a Lakehouse***:
-
----
+# Designing an ETL Pipeline: Merging Data from PostgreSQL and MySQL into a Lakehouse
 
 In this project, you need to create a data infrastructure that collects data from two databases, **PostgreSQL** and **MySQL**, and consolidates it into a **Target** that can meet the needs of three groups (BI analysts, reporting managers, and ML engineers). Below are the necessary steps to carry out this project in a **step-by-step** manner on a Windows environment without using Docker:
 
