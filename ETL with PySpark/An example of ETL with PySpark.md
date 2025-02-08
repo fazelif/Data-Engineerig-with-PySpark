@@ -1,4 +1,4 @@
-***Designing an ETL Pipeline: Merging Data from PostgreSQL and MySQL into a Lakehouse***:
+# Designing an ETL Pipeline: Merging Data from PostgreSQL and MySQL into a Lakehouse***:
 
 ---
 
